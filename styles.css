@@ -1,0 +1,77 @@
+
+/*COLORS
+#05386B PURPLE
+#5CDB95 GREEN
+#EDF5E1 WHITE
+*/
+
+body {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header, #footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #05386B;
+    color: #EDF5E1;
+}
+
+#main {
+    height: 80vh;
+    background-color: #5CDB95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator {
+    height: 420px;
+    width: 240px;
+    border-radius: 12px;
+    background-color: grey;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between
+}
+
+#screen {
+    background-color: #EDF5E1;
+    padding-right: 8px;
+    height: 60px;
+    width: 200px;
+    border: 4px solid black;
+    border-radius: 12px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-weight: 700;
+}
+
+#buttons {
+    height: 260px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    gap: 6px;
+}
+
+button {
+    background-color: black;
+    color: #EDF5E1;
+    border: 2px solid #EDF5E1;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+#clear {
+    background-color:indianred;
+    color: black;
+    border-radius: 6px;
+    padding: 6px;
+}
